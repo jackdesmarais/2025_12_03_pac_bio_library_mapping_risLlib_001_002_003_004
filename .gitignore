@@ -1,0 +1,8 @@
+fail_reads/
+hifi_reads/
+aligning/output/
+parsing/output/
+aligning/Escherichia_coli_strain_BTH101_CP070482.fasta
+metadata/
+statistics/
+pb_formats/
