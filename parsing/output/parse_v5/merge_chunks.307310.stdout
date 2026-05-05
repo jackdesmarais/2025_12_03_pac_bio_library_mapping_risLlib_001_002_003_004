@@ -1,0 +1,35 @@
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/condabin/conda
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/bin/conda
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/bin/conda-env
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/bin/activate
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/bin/deactivate
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/etc/profile.d/conda.csh
+no change     /grid/kinney/home/desmara/.bashrc
+No action taken.
+Found 8 chunk files to merge
+Loading parsed_reads_chunk1.csv...
+  Loaded 1514697 reads from parsed_reads_chunk1.csv
+Loading parsed_reads_chunk2.csv...
+  Loaded 1514697 reads from parsed_reads_chunk2.csv
+Loading parsed_reads_chunk3.csv...
+  Loaded 1514697 reads from parsed_reads_chunk3.csv
+Loading parsed_reads_chunk4.csv...
+  Loaded 1514697 reads from parsed_reads_chunk4.csv
+Loading parsed_reads_chunk5.csv...
+  Loaded 1514697 reads from parsed_reads_chunk5.csv
+Loading parsed_reads_chunk6.csv...
+  Loaded 1514697 reads from parsed_reads_chunk6.csv
+Loading parsed_reads_chunk7.csv...
+  Loaded 1514697 reads from parsed_reads_chunk7.csv
+Loading parsed_reads_chunk8.csv...
+  Loaded 1514700 reads from parsed_reads_chunk8.csv
+Concatenating dataframes...
+Saving merged results to ./output/parse_v5/parsed_reads_merged.csv...
+Merge complete! Total reads: 12117579
+Files processed: 3
+Unique query names: 12117579

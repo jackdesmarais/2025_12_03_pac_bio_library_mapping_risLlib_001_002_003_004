@@ -1,0 +1,58 @@
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/condabin/conda
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/bin/conda
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/bin/conda-env
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/bin/activate
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/bin/deactivate
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /grid/it/data/elzar/easybuild/software/Anaconda3/2022.05/etc/profile.d/conda.csh
+no change     /grid/kinney/home/desmara/.bashrc
+No action taken.
+Loaded file read counts from ./output/parse_v5/read_counts.json
+Starting BAM file processing...
+Using provided file read counts...
+Warning: No read count provided for /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.bc2011.bam, counting now
+Warning: No read count provided for /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.bc2015.bam, counting now
+Warning: No read count provided for /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.unassigned.bam, counting now
+Total reads across all files: 12117579
+Processing chunk 7 of 8: reads 9088182 to 10602878 (total: 1514697 reads)
+Processing BAM file: /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.bc2015.bam
+  Processing chunk: skipping 2663240 reads, processing 1514697 reads (out of 5661978 total)
+  Processed 1514697 reads
+
+=== TIMING RESULTS ===
+Total processing time: 1521.78 seconds
+
+File: m84223_251126_143521_s2.hifi_reads.bc2015.bam
+  Total file time: 697.83 seconds
+  File open: 0.0000s (0.0%)
+  Read count: 0.0000s (0.0%)
+  Read fetch: 284.3137s (40.7%)
+  Regex matching: 389.9383s (55.9%)
+  DataFrame creation: 11.9085s (1.7%)
+Saved results to ./output/parse_v5/parsed_reads_chunk7.csv (csv format)
+Saved parser state to ./output/parse_v5/parser_state_chunk7.json
+
+=== SUMMARY ===
+Total reads processed: 1514697
+Files processed: 1
+Unique query names: 1514697
+  upstream_barcode: 914053 matches (60.3%)
+  upstream_barcode_rev: 355635 matches (23.5%)
+  downstream_barcode: 952077 matches (62.9%)
+  downstream_barcode_rev: 371379 matches (24.5%)
+  lib001_variable_exon: 381 matches (0.0%)
+  lib001_variable_exon_rev: 195 matches (0.0%)
+  lib001_variable_intron: 324 matches (0.0%)
+  lib001_variable_intron_rev: 163 matches (0.0%)
+  lib002_variable_exon: 865860 matches (57.2%)
+  lib002_variable_exon_rev: 335268 matches (22.1%)
+  lib002_variable_intron: 894351 matches (59.0%)
+  lib002_variable_intron_rev: 346262 matches (22.9%)
+  lib003_variable_exon: 42 matches (0.0%)
+  lib003_variable_exon_rev: 22 matches (0.0%)
+  lib004_junction: 13062 matches (0.9%)
+  lib004_junction_rev: 6868 matches (0.5%)
