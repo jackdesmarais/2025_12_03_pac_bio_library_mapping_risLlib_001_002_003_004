@@ -1,0 +1,5 @@
+samtools fastq: Coordinate sorted file.  Read pairs may be out of order
+[M::bam2fq_mainloop] discarded 0 singletons
+[M::bam2fq_mainloop] processed 1000 reads
+/grid/kinney/data/desmara/pacbio_regex_parser/.pixi/envs/default/lib/python3.12/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
