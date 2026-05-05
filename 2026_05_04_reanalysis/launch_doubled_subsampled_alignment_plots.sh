@@ -5,10 +5,11 @@
 set -euo pipefail
 
 REPO_DIR="/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis"
+PIXI_PROJECT_DIR="/grid/kinney/data/desmara/pacbio_regex_parser"
 REFERENCE_FASTA="${REPO_DIR}/library001_ris_sensative_smn2_2xinner_2xbc.fasta"
 OUT_BASE_DIR="${REPO_DIR}/cluster_map/alignment_output"
 SLURM_LOG_DIR="${REPO_DIR}/cluster_map/slurm_output"
-NUM_READS=10000
+NUM_READS=1000
 THREADS=24
 
 declare -A BAMS=(
@@ -27,7 +28,7 @@ for READ_NAME in "${!BAMS[@]}"; do
         OUT_DIR="${OUT_BASE_DIR}/${READ_NAME}_${MODE}"
         mkdir -p "${OUT_DIR}"
 
-        ALIGN_CMD="pixi run pacbio-align-cluster --input-bams ${BAM} --reference-fasta ${REFERENCE_FASTA} --out-dir ${OUT_DIR} --read-name ${READ_NAME}_${MODE} --num-reads ${NUM_READS} --threads ${THREADS}"
+        ALIGN_CMD="pixi run --manifest-path ${PIXI_PROJECT_DIR}/pixi.toml pacbio-align-cluster --input-bams ${BAM} --reference-fasta ${REFERENCE_FASTA} --out-dir ${OUT_DIR} --read-name ${READ_NAME}_${MODE} --num-reads ${NUM_READS} --threads ${THREADS}"
         [[ "${MODE}" == "linear" ]] && ALIGN_CMD="${ALIGN_CMD} --linear-reference"
 
         sbatch <<SBATCH_SCRIPT
