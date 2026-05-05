@@ -5,3 +5,5 @@ aligning/Escherichia_coli_strain_BTH101_CP070482.fasta
 metadata/
 statistics/
 pb_formats/
+parsing/output/parse_v5/parsed_reads_merged.csv
+parsing/output/parse_v5/parsed_reads_chunk*.csv
