@@ -1,0 +1,57 @@
+Loaded file read counts from /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing/read_counts.json
+Starting BAM file processing...
+Using provided file read counts...
+  m84223_251126_143521_s2.hifi_reads.bc2011.bam: 6424942 reads
+  m84223_251126_143521_s2.hifi_reads.bc2015.bam: 5661978 reads
+  m84223_251126_143521_s2.hifi_reads.unassigned.bam: 30659 reads
+Total reads across all files: 12117579
+Processing chunk 5 of 8: reads 6058788 to 7573484 (total: 1514697 reads)
+Processing BAM file: /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.bc2011.bam
+  Processing chunk: skipping 6058788 reads, processing 366154 reads (out of 6424942 total)
+  Processed 366154 reads
+Processing BAM file: /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.bc2015.bam
+  Processing chunk: skipping 0 reads, processing 1148543 reads (out of 5661978 total)
+  Processed 1148543 reads
+
+=== TIMING RESULTS ===
+Total processing time: 1309.50 seconds
+
+File: m84223_251126_143521_s2.hifi_reads.bc2011.bam
+  Total file time: 715.72 seconds
+  File open: 0.0000s (0.0%)
+  Read count: 0.0000s (0.0%)
+  Read fetch: 549.0124s (76.7%)
+  Regex matching: 156.0031s (21.8%)
+  DataFrame creation: 6.2876s (0.9%)
+
+File: m84223_251126_143521_s2.hifi_reads.bc2015.bam
+  Total file time: 593.68 seconds
+  File open: 0.0000s (0.0%)
+  Read count: 0.0000s (0.0%)
+  Read fetch: 97.9671s (16.5%)
+  Regex matching: 473.7694s (79.8%)
+  DataFrame creation: 10.6606s (1.8%)
+Auto-detected format: csv from extension .csv
+Saved results to /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing/parsed_reads_chunk5.csv (csv format)
+Saved parser state to /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing/parser_state_chunk5.json
+
+=== SUMMARY ===
+Total reads processed: 1514697
+Files processed: 2
+Unique query names: 1514697
+  upstream_barcode: 736825 matches (48.6%)
+  upstream_barcode_rev: 498207 matches (32.9%)
+  downstream_barcode: 767775 matches (50.7%)
+  downstream_barcode_rev: 519727 matches (34.3%)
+  lib001_variable_exon: 359 matches (0.0%)
+  lib001_variable_exon_rev: 273634 matches (18.1%)
+  lib001_variable_intron: 321 matches (0.0%)
+  lib001_variable_intron_rev: 283222 matches (18.7%)
+  lib002_variable_exon: 697346 matches (46.0%)
+  lib002_variable_exon_rev: 193903 matches (12.8%)
+  lib002_variable_intron: 720335 matches (47.6%)
+  lib002_variable_intron_rev: 199997 matches (13.2%)
+  lib003_variable_exon: 34 matches (0.0%)
+  lib003_variable_exon_rev: 5476 matches (0.4%)
+  lib004_junction: 11401 matches (0.8%)
+  lib004_junction_rev: 3741 matches (0.2%)

@@ -1,0 +1,58 @@
+{
+  "bam_files": [
+    "/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.bc2011.bam",
+    "/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.bc2015.bam",
+    "/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.unassigned.bam"
+  ],
+  "regex_patterns": [
+    "CTGGCTAGCG(.{1,30})GTGCACCTGA",
+    "TCAGGTGCAC(.{1,30})CGCTAGCCAG",
+    "GCTGCCTATC(.{1,100})CTCGAGTCTA",
+    "TAGACTCGAG(.{1,100})GATAGGCAGC",
+    "CATCCAGGTT(.{1,500})AGGAGTAAGT",
+    "ACTTACTCCT(.{1,500})AACCTGGATG",
+    "AGGAGTAAGT(.{1,200})GGTTAAGTTC",
+    "GAACTTAACC(.{1,200})ACTTACTCCT",
+    "CATCCAGGTT(.{1,500})AGGAGTAAGC",
+    "GCTTACTCCT(.{1,500})AACCTGGATG",
+    "AGGAGTAAGC(.{1,200})GGTTAAGTTC",
+    "GAACTTAACC(.{1,200})GCTTACTCCT",
+    "TGGGCAGGTT(.{1,500})AGGACTCCTG",
+    "CAGGAGTCCT(.{1,500})AACCTGCCCA",
+    "CCCTGGGCAGCTCCTGGGCA",
+    "TGCCCAGGAGCTGCCCAGGG"
+  ],
+  "regex_names": [
+    "upstream_barcode",
+    "upstream_barcode_rev",
+    "downstream_barcode",
+    "downstream_barcode_rev",
+    "lib001_variable_exon",
+    "lib001_variable_exon_rev",
+    "lib001_variable_intron",
+    "lib001_variable_intron_rev",
+    "lib002_variable_exon",
+    "lib002_variable_exon_rev",
+    "lib002_variable_intron",
+    "lib002_variable_intron_rev",
+    "lib003_variable_exon",
+    "lib003_variable_exon_rev",
+    "lib004_junction",
+    "lib004_junction_rev"
+  ],
+  "track_timings": true,
+  "timings": {
+    "m84223_251126_143521_s2.hifi_reads.bc2011.bam": {
+      "file_open_time": 2.384185791015625e-07,
+      "read_count_time": 0,
+      "read_fetch_time": 514.0012385845184,
+      "regex_match_time": 604.4466803073883,
+      "dataframe_creation_time": 17.967072010040283,
+      "total_file_time": 1151.9222655296326
+    },
+    "total_time": 1152.0193910598755
+  },
+  "max_regex_length": 500,
+  "max_read_name_length": 100,
+  "max_file_name_length": 100
+}
