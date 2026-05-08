@@ -9,7 +9,7 @@
 #SBATCH --qos=cpuq_base
 
 WORKTREE=/grid/kinney/data/desmara/pacbio_regex_parser
-OUTPUT_DIR=/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing
+OUTPUT_DIR=/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2
 
 mkdir -p "${OUTPUT_DIR}"
 
