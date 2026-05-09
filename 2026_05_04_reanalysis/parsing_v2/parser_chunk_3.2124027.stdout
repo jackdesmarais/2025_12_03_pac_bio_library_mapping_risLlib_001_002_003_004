@@ -1,0 +1,46 @@
+Loaded file read counts from /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/read_counts.json
+Starting BAM file processing...
+Using provided file read counts...
+  m84223_251126_143521_s2.hifi_reads.bc2011.bam: 6424942 reads
+  m84223_251126_143521_s2.hifi_reads.bc2015.bam: 5661978 reads
+  m84223_251126_143521_s2.hifi_reads.unassigned.bam: 30659 reads
+Total reads across all files: 12117579
+Processing chunk 3 of 8: reads 3029394 to 4544090 (total: 1514697 reads)
+Processing BAM file: /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/hifi_reads/m84223_251126_143521_s2.hifi_reads.bc2011.bam
+  Processing chunk: skipping 3029394 reads, processing 1514697 reads (out of 6424942 total)
+  Processed 1514697 reads
+
+=== TIMING RESULTS ===
+Total processing time: 735.95 seconds
+
+File: m84223_251126_143521_s2.hifi_reads.bc2011.bam
+  Total file time: 735.84 seconds
+  File open: 0.0000s (0.0%)
+  Read count: 0.0000s (0.0%)
+  Read fetch: 311.2429s (42.3%)
+  Regex matching: 392.6371s (53.4%)
+  DataFrame creation: 19.2340s (2.6%)
+Auto-detected format: csv from extension .csv
+Saved results to /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk3.csv (csv format)
+Saved parser state to /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parser_state_chunk3.json
+
+=== SUMMARY ===
+Total reads processed: 1514697
+Files processed: 1
+Unique query names: 1514697
+  upstream_barcode: 898502 matches (59.3%)
+  upstream_barcode_rev: 397888 matches (26.3%)
+  downstream_barcode: 922497 matches (60.9%)
+  downstream_barcode_rev: 415406 matches (27.4%)
+  lib001_variable_exon: 860188 matches (56.8%)
+  lib001_variable_exon_rev: 371210 matches (24.5%)
+  lib001_variable_intron: 879493 matches (58.1%)
+  lib001_variable_intron_rev: 383684 matches (25.3%)
+  lib002_variable_exon: 298 matches (0.0%)
+  lib002_variable_exon_rev: 182 matches (0.0%)
+  lib002_variable_intron: 281 matches (0.0%)
+  lib002_variable_intron_rev: 176 matches (0.0%)
+  lib003_variable_exon: 8230 matches (0.5%)
+  lib003_variable_exon_rev: 7708 matches (0.5%)
+  lib004_junction: 1 matches (0.0%)
+  lib004_junction_rev: 0 matches (0.0%)

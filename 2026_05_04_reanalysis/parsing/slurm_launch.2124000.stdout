@@ -1,0 +1,19 @@
+Submitting counting job...
+Submitted job 'count_reads' with ID: 2124024
+Counting job submitted with ID: 2124024
+  Read counts will be saved to: /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/read_counts.json
+
+Submitting 8 chunk processing jobs...
+Submitted job 'parser_chunk_1' with ID: 2124025
+Submitted job 'parser_chunk_2' with ID: 2124026
+Submitted job 'parser_chunk_3' with ID: 2124027
+Submitted job 'parser_chunk_4' with ID: 2124028
+Submitted job 'parser_chunk_5' with ID: 2124029
+Submitted job 'parser_chunk_6' with ID: 2124030
+Submitted job 'parser_chunk_7' with ID: 2124031
+Submitted job 'parser_chunk_8' with ID: 2124032
+Submitted 8 chunk jobs: [2124025, 2124026, 2124027, 2124028, 2124029, 2124030, 2124031, 2124032]
+
+Submitting merge job (depends on 8 chunk jobs)...
+Submitted job 'merge_chunks' with ID: 2124033
+Merge job submitted with ID: 2124033
