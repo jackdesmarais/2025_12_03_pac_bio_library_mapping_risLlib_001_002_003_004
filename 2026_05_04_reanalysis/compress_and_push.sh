@@ -33,7 +33,7 @@ for csv_file in "${CSV_DIR}"/*.csv; do
         echo "  Already compressed, skipping xz step: ${basename_xz}"
     else
         echo "  Compressing with xz -T4 ($(du -sh "${csv_file}" | cut -f1) -> ?) ..."
-        xz -v -T4 "${csv_file}"
+        xz -v -k -T4 "${csv_file}"
         echo "  Compression done."
     fi
 
