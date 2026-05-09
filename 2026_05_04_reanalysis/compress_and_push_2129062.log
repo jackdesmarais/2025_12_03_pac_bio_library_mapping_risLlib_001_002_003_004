@@ -1,0 +1,105 @@
+=== Starting compression job at Sat May  9 16:04:26 EDT 2026 ===
+CSV directory: /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2
+
+--- Processing: parsed_reads_chunk1.csv ---
+  Compressing with xz -T4 (335M -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk1.csv: 59.7 MiB / 334.9 MiB = 0.178, 2.0 MiB/s, 2:49
+  Compression done.
+  Compressed size: 59.7 MB
+  Under 100 MB — staging for git add.
+
+--- Processing: parsed_reads_chunk2.csv ---
+  Compressing with xz -T4 (333M -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk2.csv: 59.3 MiB / 333.0 MiB = 0.178, 2.2 MiB/s, 2:31
+  Compression done.
+  Compressed size: 59.3 MB
+  Under 100 MB — staging for git add.
+
+--- Processing: parsed_reads_chunk3.csv ---
+  Compressing with xz -T4 (345M -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk3.csv: 62.7 MiB / 344.7 MiB = 0.182, 2.1 MiB/s, 2:47
+  Compression done.
+  Compressed size: 62.7 MB
+  Under 100 MB — staging for git add.
+
+--- Processing: parsed_reads_chunk4.csv ---
+  Compressing with xz -T4 (327M -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk4.csv: 57.1 MiB / 326.5 MiB = 0.175, 2.2 MiB/s, 2:25
+  Compression done.
+  Compressed size: 57.1 MB
+  Under 100 MB — staging for git add.
+
+--- Processing: parsed_reads_chunk5.csv ---
+  Compressing with xz -T4 (334M -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk5.csv: 60.3 MiB / 334.0 MiB = 0.181, 2.2 MiB/s, 2:34
+  Compression done.
+  Compressed size: 60.3 MB
+  Under 100 MB — staging for git add.
+
+--- Processing: parsed_reads_chunk6.csv ---
+  Compressing with xz -T4 (331M -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk6.csv: 59.6 MiB / 330.7 MiB = 0.180, 2.1 MiB/s, 2:35
+  Compression done.
+  Compressed size: 59.5 MB
+  Under 100 MB — staging for git add.
+
+--- Processing: parsed_reads_chunk7.csv ---
+  Compressing with xz -T4 (340M -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk7.csv: 61.3 MiB / 339.1 MiB = 0.181, 2.3 MiB/s, 2:30
+  Compression done.
+  Compressed size: 61.3 MB
+  Under 100 MB — staging for git add.
+
+--- Processing: parsed_reads_chunk8.csv ---
+  Compressing with xz -T4 (333M -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk8.csv: 60.1 MiB / 332.0 MiB = 0.181, 2.0 MiB/s, 2:42
+  Compression done.
+  Compressed size: 60.1 MB
+  Under 100 MB — staging for git add.
+
+--- Processing: parsed_reads_merged.csv ---
+  Compressing with xz -T4 (2.7G -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/parsed_reads_merged.csv: 479.7 MiB / 2,675.0 MiB = 0.179, 2.5 MiB/s, 18:08
+  Compression done.
+  Compressed size: 479.7 MB
+  WARNING: 479.7 MB >= 100 MB — skipping git add (GitHub limit).
+
+=== Summary ===
+Files added to git (8):
+  + parsed_reads_chunk1.csv.xz
+  + parsed_reads_chunk2.csv.xz
+  + parsed_reads_chunk3.csv.xz
+  + parsed_reads_chunk4.csv.xz
+  + parsed_reads_chunk5.csv.xz
+  + parsed_reads_chunk6.csv.xz
+  + parsed_reads_chunk7.csv.xz
+  + parsed_reads_chunk8.csv.xz
+Files skipped — too large (1):
+  - parsed_reads_merged.csv.xz (479.7 MB)
+
+Committing and pushing...
+[main 5c3c37a] Add xz-compressed CSV files from parsing step
+ 8 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk1.csv.xz
+ create mode 100644 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk2.csv.xz
+ create mode 100644 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk3.csv.xz
+ create mode 100644 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk4.csv.xz
+ create mode 100644 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk5.csv.xz
+ create mode 100644 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk6.csv.xz
+ create mode 100644 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk7.csv.xz
+ create mode 100644 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk8.csv.xz
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk6.csv.xz is 59.58 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk7.csv.xz is 61.32 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk8.csv.xz is 60.10 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk1.csv.xz is 59.71 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk2.csv.xz is 59.31 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk3.csv.xz is 62.71 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk4.csv.xz is 57.11 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File 2026_05_04_reanalysis/parsing_v2/parsed_reads_chunk5.csv.xz is 60.31 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:jackdesmarais/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004.git
+   115b522..5c3c37a  main -> main
+Push complete at Sat May  9 16:53:26 EDT 2026.
+
+=== Job finished at Sat May  9 16:53:26 EDT 2026 ===

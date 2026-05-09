@@ -9,3 +9,5 @@ parsing/output/parse_v5/parsed_reads_merged.csv
 parsing/output/parse_v5/parsed_reads_chunk*.csv
 2026_05_04_reanalysis/cluster_map/alignment_output/**/figure_output/*_alignment_clustermap.pdf
 2026_05_04_reanalysis/parsing/*.csv
+2026_05_04_reanalysis/parsing_v2/parsed_reads_*.csv
+2026_05_04_reanalysis/parsing_v2/parsed_reads_merged.csv.xz

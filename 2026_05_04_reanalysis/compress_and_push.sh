@@ -8,7 +8,7 @@
 
 set -euo pipefail
 
-CSV_DIR="/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing"
+CSV_DIR="/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2"
 REPO_ROOT="/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004"
 MAX_BYTES=$((100 * 1024 * 1024))  # 100 MB in bytes
 
