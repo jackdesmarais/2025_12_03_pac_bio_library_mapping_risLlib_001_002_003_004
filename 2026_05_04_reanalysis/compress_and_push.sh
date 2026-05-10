@@ -8,7 +8,7 @@
 
 set -euo pipefail
 
-CSV_DIR="/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2"
+CSV_DIR="/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/2026_05_08_filtered_BC_VR_table"
 REPO_ROOT="/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004"
 MAX_BYTES=$((100 * 1024 * 1024))  # 100 MB in bytes
 
@@ -18,7 +18,7 @@ echo "CSV directory: ${CSV_DIR}"
 added_files=()
 skipped_files=()
 
-for csv_file in "${CSV_DIR}"/*.csv; do
+for csv_file in "${CSV_DIR}"*.csv; do
     [ -f "${csv_file}" ] || continue
 
     xz_file="${csv_file}.xz"

@@ -1,0 +1,27 @@
+=== Starting compression job at Sat May  9 17:10:03 EDT 2026 ===
+CSV directory: /grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/2026_05_08_filtered_BC_VR_table
+
+--- Processing: 2026_05_08_filtered_BC_VR_table.csv ---
+  Compressing with xz -T4 (331M -> ?) ...
+/grid/kinney/data/desmara/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004/2026_05_04_reanalysis/parsing_v2/2026_05_08_filtered_BC_VR_table.csv: 74.5 MiB / 330.3 MiB = 0.226, 1.8 MiB/s, 3:05
+  Compression done.
+  Compressed size: 74.4 MB
+  Under 100 MB — staging for git add.
+
+=== Summary ===
+Files added to git (1):
+  + 2026_05_08_filtered_BC_VR_table.csv.xz
+Files skipped — too large (0):
+
+Committing and pushing...
+[main 98e420a] Add xz-compressed CSV files from parsing step
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2026_05_04_reanalysis/parsing_v2/2026_05_08_filtered_BC_VR_table.csv.xz
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File 2026_05_04_reanalysis/parsing_v2/2026_05_08_filtered_BC_VR_table.csv.xz is 74.49 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:jackdesmarais/2025_12_03_pac_bio_library_mapping_risLlib_001_002_003_004.git
+   5c3c37a..98e420a  main -> main
+Push complete at Sat May  9 17:13:28 EDT 2026.
+
+=== Job finished at Sat May  9 17:13:28 EDT 2026 ===

@@ -11,3 +11,4 @@ parsing/output/parse_v5/parsed_reads_chunk*.csv
 2026_05_04_reanalysis/parsing/*.csv
 2026_05_04_reanalysis/parsing_v2/parsed_reads_*.csv
 2026_05_04_reanalysis/parsing_v2/parsed_reads_merged.csv.xz
+2026_05_04_reanalysis/parsing_v2/2026_05_08_filtered_BC_VR_table.csv
